@@ -4,7 +4,7 @@ use <./Libraries/hex_structure.scad>
 fileNameLogo = "./Libraries/cycloneLogoC.dxf";
 
 baseHeight = 1.8;
-baseOffset = 1;
+baseOffset = 1;//actual width
 
 baseSlotW = 2;
 baseSlotL = 15;
@@ -12,8 +12,15 @@ baseSlotL = 15;
 screwDiameter = 3;
 screwHeight = 18;
 
+fanScrewDiameter = 3;
+distanceFanScrews = 32;
 
 
+screwAssembly = 17.9;
+screwAssemblyWidth = 5.53;
+screwAssemblyHeigth = 2;
+/******************************/
+cubeH = 45;
 arduinoShortSide=53.7;
 arduinoLongSide = 67;
 arduinoLongSideAddon = 1;
@@ -21,18 +28,6 @@ arduinoLongSideAddon = 1;
 baseLongSide =  arduinoLongSide + arduinoLongSideAddon + screwDiameter*2 +baseSlotW*2;
 
 baseShortSide = arduinoShortSide  + screwDiameter*2 + baseSlotW*2;
-
-
-cubeH = 45;
-screwAssembly = 17.9;
-
-screwAssemblyWidth = 5.53;
-screwAssemblyHeigth = 2;
-
-fanScrewDiameter = 3;
-distanceFanScrews = 32;
-/******************************/
-
 
 module slotsScrewLongSide(){
 	mountingScrew();
@@ -271,12 +266,12 @@ module fanDrills(){
 // arduino_uno();
 
 /******All Parts*******/
-//front();
-//back();
-//bottom();
-//top();
-//RightaddHex();
-//LeftaddHex();
+// front();
+// back();
+// bottom();
+// top();
+// RightaddHex();
+// LeftaddHex();
 
 
 
