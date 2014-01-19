@@ -1,5 +1,7 @@
 CNC_ShieldBoX
 ===========================
+_PLEASE NOTE_: **you have to work out the tolerances for this design before 3D printing, however if you print it "as is" you may need to use a sanding file to fit all the parts toguether.**
+
 This is a 3D printable box created to house an Arduino Uno form factor and a CNC Shield.
 ![ScreenShot](https://github.com/yOPERO/CNC_shieldBox/blob/master/Pictures/printedSmall.gif?raw=true)
 
