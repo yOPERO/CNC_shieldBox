@@ -1,7 +1,7 @@
 CNC_ShieldBoX
 ===========================
 This is a 3D printable box created to house an Arduino Uno form factor and a CNC Shield.
-![ScreenShot](https://github.com/yOPERO/CNC_shieldBox/blob/master/Pictures/printed.gif)
+![ScreenShot](https://github.com/yOPERO/CNC_shieldBox/blob/master/Pictures/printedSmall.gif?raw=true)
 
 Status
 --
@@ -12,10 +12,14 @@ The design was made using openScad.
 Usage
 --
 You can personalize:
+
 -The size of the height, width of the walls.
--Whether  you want a logo(*.dfx imported to openScad.
--Size of the fan’s screws
--Size of the screws used on the assembly
+
+-Whether  you want a logo(*.dfx imported to openScad).
+
+-Size of the fan's screws.
+
+-Size of the screws used on the assembly.
 
 License  
 --
