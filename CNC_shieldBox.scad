@@ -266,12 +266,12 @@ module fanDrills(){
 // arduino_uno();
 
 /******All Parts*******/
-// front();
+//front();
 // back();
 // bottom();
 // top();
 // RightaddHex();
-// LeftaddHex();
+//LeftaddHex();
 
 
 
